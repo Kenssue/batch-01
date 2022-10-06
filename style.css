@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Great+Vibes&family=Josefin+Slab:wght@200&family=Macondo&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    background-color: darkgoldenrod;
+}
+.Theme h3{
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+.new {
+    background-color: rgb(128, 127, 127);
+    border: 1px solid rgb(77, 77, 77);
+    border-color: rgb(58, 58, 58) rgb(112, 112, 112);
+}
+.new ul{
+    text-align: center;
+    align-items: center;
+    word-spacing: 11rem;
+    letter-spacing: 10px;
+}
+.new a {
+    color: rgb(48, 47, 47);
+    font-size: 30px;
+    font-family: 'Square Peg', cursive;
+    src: url("https://fonts.googleapis.com");
+    flex: auto;
+    text-decoration: none;
+    cursor: pointer;
+}
+.new a:hover {
+    color: black; 
+}
+/*********************************************/
+.GPhoto img{
+height: 100%;
+width: 100%;
+}
+.namesa {
+    text-align: center;
+    font-family: 'Square Peg', cursive;
+    src: url("https://fonts.googleapis.com");
+    position:absolute;
+    top: 15.5%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    height: 320%;
+
+}
+.namesa h3 {
+    font-size: 1.5rem;
+    color: black;
+}
+.namesa h4 {
+    font-size: 2rem;
+    color: rgb(247, 247, 247);
+}
+.namesa p {
+    font-size: 25px;
+}
